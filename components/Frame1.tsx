@@ -4,11 +4,11 @@ import { StackNavigationProp } from "@react-navigation/stack";
 import { useNavigation, ParamListBase } from "@react-navigation/native";
 import { Color, FontFamily, FontSize, Border } from "../GlobalStyles";
 
-export type Frame1Type = {
+export type Frame11Type = {
   onClose?: () => void;
 };
 
-const Frame1 = ({ onClose }: Frame1Type) => {
+const Frame11 = ({ onClose }: Frame11Type) => {
   const navigation = useNavigation<StackNavigationProp<ParamListBase>>();
 
   return (
@@ -40,7 +40,7 @@ const Frame1 = ({ onClose }: Frame1Type) => {
         <Image
           style={[styles.image13Icon, styles.image191Layout]}
           resizeMode="cover"
-          source={require("../assets/image-13.png")}
+          source={require("../assets/image-131.png")}
         />
       </Pressable>
       <Pressable
@@ -340,4 +340,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Frame1;
+export default Frame11;
