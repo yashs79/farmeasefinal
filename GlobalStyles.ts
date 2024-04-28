@@ -17,16 +17,16 @@ export const FontFamily = {
   redHatDisplaySemiBold: "RedHatDisplay-SemiBold",
   interExtraLight: "Inter-ExtraLight",
   interLight: "Inter-Light",
-  interMedium: "Inter-Medium",
-  interSemiBold: "Inter-SemiBold",
   poppinsLight: "Poppins-Light",
   gilroy: "Gilroy",
   smallBodyTextLight12: "Lexend-Light",
   plusJakartaSansSemiBold: "PlusJakartaSans-SemiBold",
+  interMedium: "Inter-Medium",
+  interSemiBold: "Inter-SemiBold",
 };
 /* font sizes */
 export const FontSize = {
-  defaultBoldSubheadline_size: 15,
+  paragraph1_size: 15,
   heading1_size: 30,
   size_base: 16,
   size_17xl: 36,
@@ -39,12 +39,12 @@ export const FontSize = {
   size_xl: 20,
   size_sm: 14,
   size_3xs: 10,
-  size_base_5: 16,
-  size_xs_5: 12,
-  size_smi: 13,
   size_6xl: 25,
   size_21xl: 40,
   size_smi_7: 13,
+  size_smi: 13,
+  size_base_5: 16,
+  size_xs_5: 12,
 };
 /* Colors */
 export const Color = {
@@ -78,12 +78,12 @@ export const Color = {
   colorYellowgreen_300: "#71c725",
   colorYellowgreen_400: "#6cc51d",
   colorYellowgreen_500: "rgba(118, 201, 44, 0.5)",
-  colorMediumseagreen_100: "rgba(81, 188, 125, 0.2)",
-  colorMediumseagreen_200: "rgba(76, 173, 115, 0.2)",
+  colorGainsboro: "#d9d9d9",
   colorWhitesmoke_100: "#f9f9f9",
   colorWhitesmoke_200: "#ebebeb",
   colorWhitesmoke_300: "#e8e9e9",
-  colorGainsboro: "#d9d9d9",
+  colorMediumseagreen_200: "rgba(76, 173, 115, 0.2)",
+  colorMediumseagreen_100: "rgba(81, 188, 125, 0.2)",
 };
 /* Paddings */
 export const Padding = {
@@ -99,10 +99,10 @@ export const Padding = {
   p_2xs_9: 11,
   p_mini_6: 15,
   p_lgi: 19,
+  p_11xs: 2,
+  p_3xs: 10,
   p_mid: 17,
   p_8xs: 5,
-  p_3xs: 10,
-  p_11xs: 2,
 };
 /* border radiuses */
 export const Border = {
@@ -116,14 +116,14 @@ export const Border = {
   br_5xs: 8,
   br_5xs_3: 7,
   br_3xs: 10,
-  br_mid: 17,
-  br_2xs: 11,
-  br_306xl_3: 325,
-  br_7xs: 6,
-  br_sm: 14,
   br_mini: 15,
-  br_xl: 20,
   br_78xl: 97,
   br_9xs: 4,
   br_xs: 12,
+  br_xl: 20,
+  br_7xs: 6,
+  br_mid: 17,
+  br_sm: 14,
+  br_2xs: 11,
+  br_306xl_3: 325,
 };

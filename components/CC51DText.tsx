@@ -8,7 +8,7 @@ const CC51DText = () => {
 
 const styles = StyleSheet.create({
   cc51d: {
-    fontSize: FontSize.defaultBoldSubheadline_size,
+    fontSize: FontSize.paragraph1_size,
     fontWeight: "600",
     fontFamily: FontFamily.poppinsSemiBold,
     color: Color.white,

@@ -8,7 +8,7 @@ const AEDC81Text = () => {
 
 const styles = StyleSheet.create({
   aedc81: {
-    fontSize: FontSize.defaultBoldSubheadline_size,
+    fontSize: FontSize.paragraph1_size,
     fontWeight: "600",
     fontFamily: FontFamily.poppinsSemiBold,
     color: Color.white,

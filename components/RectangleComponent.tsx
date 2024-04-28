@@ -64,7 +64,7 @@ const styles = StyleSheet.create({
   formSubmitted: {
     top: 27,
     left: 60,
-    fontSize: FontSize.defaultBoldSubheadline_size,
+    fontSize: FontSize.paragraph1_size,
     fontWeight: "600",
     fontFamily: FontFamily.poppinsSemiBold,
     color: Color.colorYellowgreen_400,
